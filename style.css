@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+body, .main-container{
+    min-height:100vh;
+}
 /* three rows, 2 col*/
 .main-container{
     border:1px solid blue;

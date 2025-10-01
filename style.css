@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+/* three rows, 2 col*/
+.main-container{
+    border:1px solid blue;
+    display:grid;
+    grid-template-columns: 1fr 12fr;
+    background: lightblue;
+}
+.main-container>div{
+    border:1px solid black;
+    display: grid;
+    background: palegreen;
+}
+
+.header{
+    background: peachpuff;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-column: 2/3;
+}
+
+.sidebar{
+    grid-template-rows: repeat(auto-fit,minmax(200px,1fr));
+
+    grid-row:1/4;
+}
+
+.content{
+
+    grid-template-rows: repeat(auto-fit,minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-row:2/3;
+    grid-column:2;
+}

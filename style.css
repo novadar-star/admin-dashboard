@@ -126,12 +126,10 @@ button{
 button:hover{
 transform: scale(1.05); 
 }
-
+/*color of icons */
 .icons{
    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(27deg) brightness(104%) contrast(102%);
 }
-
-
 
 .sidebar{
     color: white;
@@ -141,30 +139,33 @@ transform: scale(1.05);
     border:1px solid white
 }
 
-
 .dashboard{
     display: flex;
     flex-direction: row;
     margin:0 20px;
     align-items: center;
     margin:2rem;
-    
 }
-.small{
+
+.small{ 
     width: 25px;
     height: auto;
     text-align: right;
+
 }
 .top{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   
 }
 .inner-top{
      display: flex;
     flex-direction: row;
-    margin:0 2.4rem;
+    flex-wrap: wrap;
+    margin: 0.4rem 2.4rem;
+
     align-items: center;
+
 }
 h4{
     margin-left: 0.8rem;

@@ -133,4 +133,13 @@ transform: scale(1.05);
 
 .sidebar{
     color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.dashboard{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
 }

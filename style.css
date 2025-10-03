@@ -57,6 +57,18 @@ body, .main-container{
 }
 
 /* design*/
-.header{
-    background-color    : white;
+
+.header-icon{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+input[type="text"]{
+    border-radius: 30px;
+    background: #E2E8F0;
+    width: 20%;
+    height: 15%;
 }

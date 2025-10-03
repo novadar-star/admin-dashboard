@@ -25,6 +25,7 @@ body, .main-container{
 }
 .sidebar{
     grid-area: sidebar;
+    background-color: #FA6081;
 }
 .content{
     grid-area: content;
@@ -73,7 +74,7 @@ body, .main-container{
     align-items: center;
     align-content: flex-start;
     width:60%;  
-    margin:0 20px;
+    margin-left:45px;
       min-width: 0;
 
 }
@@ -108,4 +109,7 @@ box-shadow: none;
     border-radius: 24px;
     font-size: x-small;
 }
-
+button{
+    background-color: #FA6081;
+    border: none;
+}

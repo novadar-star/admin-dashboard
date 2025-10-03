@@ -12,8 +12,7 @@ body, .main-container {
 .main-container{
    
     display:grid;
-    background: lightblue;
-    grid-template-areas: 
+        grid-template-areas: 
     "sidebar header"
     "sidebar content"
     "sidebar .";
@@ -23,12 +22,13 @@ body, .main-container {
 }
 .main-container>div{
     display: grid;
+    
 }
 .header{
     grid-area: header;
     border:1px solid #FA6081;
     border-bottom: none ;
-box-shadow: 0 4px 2px -2px gray;
+ box-shadow: 0 4px 2px -2px gray;
 
 }
 .sidebar{
@@ -37,6 +37,9 @@ box-shadow: 0 4px 2px -2px gray;
 }
 .content{
     grid-area: content;
+        background-color:#E2E8F0;
+        border-left:1px solid #FA6081;
+
 }
 
 
@@ -46,6 +49,7 @@ box-shadow: 0 4px 2px -2px gray;
 }
 .projects{
     display: grid;
+
     grid-template-rows: 1fr repeat(3, 3fr);
 
     grid-template-columns: repeat(2,1fr);
@@ -55,9 +59,14 @@ box-shadow: 0 4px 2px -2px gray;
 }
 
 
-.projects>div{
+.project{
     border:1px solid black;
+    background: white;
 }
+.display-text{
+    background:#E2E8F0;
+}
+
 .sideannounce{
     display:grid;
      
@@ -198,5 +207,3 @@ h4{
     font-size: larger;
 
 }
-
-

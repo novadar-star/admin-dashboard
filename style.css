@@ -15,12 +15,11 @@ body, .main-container{
     "sidebar header"
     "sidebar content";
       grid-template-columns: 1fr 5fr; 
-      grid-template-rows: 1fr 5fr;
+      grid-template-rows: 2fr 7fr;
 }
 .main-container>div{
     border:1px solid black;
     display: grid;
-    background: palegreen;
 }
 .header{
     grid-area: header;
@@ -55,4 +54,9 @@ body, .main-container{
 .announcement, .trending{
         border:1px solid black;
 
+}
+
+/* design*/
+.header{
+    background-color    : white;
 }

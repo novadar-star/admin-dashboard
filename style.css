@@ -135,6 +135,8 @@ transform: scale(1.05);
     color: white;
     display: flex;
     flex-direction: row;
+    align-content: center;
+    border:1px solid white
 }
 
 

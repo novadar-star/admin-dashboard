@@ -187,3 +187,7 @@ h4{
    filter: invert(62%) sepia(74%) saturate(4663%) hue-rotate(317deg) brightness(110%) contrast(96%);
    transform: scale(1.1);
 }
+.display-text{
+    grid-column: 1/3;
+    grid-template-columns: 1fr;
+}

@@ -87,8 +87,8 @@ box-shadow: 0 4px 2px -2px gray;
     display: flex;
     align-items: center;
     width: 30%;
-   justify-content: center;
-   gap:15px;
+   justify-content: flex-end;
+   gap:18px;
 }
 input[type="text"]{
     border-radius: 30px;

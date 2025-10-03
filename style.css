@@ -127,9 +127,11 @@ button:hover{
 transform: scale(1.05); 
 }
 
-.dash{
+.icons{
    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(27deg) brightness(104%) contrast(102%);
 }
+
+
 
 .sidebar{
     color: white;
@@ -140,9 +142,15 @@ transform: scale(1.05);
 }
 
 
-.dashboard{
+.dashboard, .top{
     display: flex;
     flex-direction: row;
-    margin-left: 20px;
+    margin:0 20px;
     align-items: center;
+    
+}
+.small{
+    width: 25px;
+    height: auto;
+    text-align: right;
 }

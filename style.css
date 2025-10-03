@@ -63,9 +63,12 @@ body, .main-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     gap:10px;
     align-content: center;
+}
+.magnify, .search{
+    justify-content:flex-start;
+    border:1px solid yellow;
 }
 input[type="text"]{
     border-radius: 30px;

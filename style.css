@@ -54,6 +54,7 @@ box-shadow: 0 4px 2px -2px gray;
 
 .projects>div{
     border:1px solid black;
+    border-top: none;
 }
 .sideannounce{
     display:grid;
@@ -138,7 +139,6 @@ transform: scale(1.05);
     display: flex;
     flex-direction: row;
     align-content: flex-start;
-    border:1px solid white
 }
 
 .dashboard{
@@ -147,12 +147,19 @@ transform: scale(1.05);
     margin-left: 20rem;
     align-items: center;
     margin:2rem;
+    cursor: pointer;
 }
 
 .small{ 
     width: 22px;
     height: auto;
     text-align: right;
+
+}
+
+.inner-top:hover, .icons:hover, .inner-bottom:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 .top{
     display: flex;

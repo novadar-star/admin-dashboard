@@ -1,6 +1,8 @@
 *{
     margin:0;
     padding: 0;
+      font-family: "Lato", sans-serif;
+
 }
 
 body, .main-container{
@@ -41,6 +43,9 @@ body, .main-container{
     grid-template-columns: repeat(2,1fr);
     
 
+}
+.main-container{
+    border:1px solid #FA6081;
 }
 .main-container>div{
     border:1px solid black;
@@ -104,7 +109,8 @@ box-shadow: none;
 
 .right button{
     padding: 10px;
-    width:20%;
+    
+    width:24%;
     min-width: 0;
     border-radius: 24px;
     font-size: x-small;
@@ -112,4 +118,5 @@ box-shadow: none;
 button{
     background-color: #FA6081;
     border: none;
+    
 }

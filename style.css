@@ -33,9 +33,15 @@ body, .main-container{
 }
 
 
-.projects{
+.inner-content{
     display:grid;
+    grid-template-columns: 3fr 1fr;
+}
+.projects{
+    display: grid;
     grid-template-columns: repeat(2,1fr);
+    border:1px solid black;
+
 }
 .project{
         border:1px solid black;
@@ -43,4 +49,10 @@ body, .main-container{
 }
 .sideannounce{
     display:grid;
+     
+
+}
+.announcement, .trending{
+        border:1px solid black;
+
 }

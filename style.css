@@ -8,7 +8,7 @@ body, .main-container{
 }
 /* 2 rows, 2 col*/
 .main-container{
-    border:1px solid blue;
+   
     display:grid;
     background: lightblue;
     grid-template-areas: 
@@ -18,7 +18,6 @@ body, .main-container{
       grid-template-rows: 2fr 7fr;
 }
 .main-container>div{
-    border:1px solid black;
     display: grid;
 }
 .header{
@@ -39,12 +38,14 @@ body, .main-container{
 .projects{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    border:1px solid black;
+    
 
 }
-.project{
-        border:1px solid black;
-
+.main-container>div{
+    border:1px solid black;
+}
+.projects>div{
+    border:1px solid black;
 }
 .sideannounce{
     display:grid;
@@ -52,7 +53,7 @@ body, .main-container{
 
 }
 .announcement, .trending{
-        border:1px solid black;
+    border:1px solid black;
 
 }
 
@@ -71,7 +72,6 @@ body, .main-container{
     display: flex;
     align-items: center;
     align-content: flex-start;
-    border:1px solid yellow;
     width:60%;  
     margin:0 20px;
       min-width: 0;
@@ -80,7 +80,6 @@ body, .main-container{
 .right{
     display: flex;
     align-items: center;
-    border:1px solid green;
     width: 30%;
    justify-content: center;
    gap:15px;
@@ -91,6 +90,8 @@ input[type="text"]{
     width: 80%;
     height: 70%;
     margin-left: 1%;
+      text-indent: 20px;
+
 }
 .text{
     margin:0 16px;
@@ -99,9 +100,8 @@ input[type="text"]{
 .right button{
     padding: 10px;
     width:20%;
-      min-width: 0;
-      border-radius: 24px;
-      font-size: x-small;
-      
-
+    min-width: 0;
+    border-radius: 24px;
+    font-size: x-small;
 }
+

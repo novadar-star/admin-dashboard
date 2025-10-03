@@ -147,6 +147,7 @@ transform: scale(1.05);
     flex-direction: row;
     margin:0 20px;
     align-items: center;
+    margin:2rem;
     
 }
 .small{
@@ -162,9 +163,9 @@ transform: scale(1.05);
 .inner-top{
      display: flex;
     flex-direction: row;
-    margin:0 25px;
+    margin:0 2.4rem;
     align-items: center;
 }
-h3{
-    text-align: right;
+h4{
+    margin-left: 0.8rem;
 }

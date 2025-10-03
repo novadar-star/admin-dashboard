@@ -6,7 +6,7 @@
 body, .main-container{
     min-height:100vh;
 }
-/* three rows, 2 col*/
+/* 2 rows, 2 col*/
 .main-container{
     border:1px solid blue;
     display:grid;
@@ -15,6 +15,7 @@ body, .main-container{
     "sidebar header"
     "sidebar content";
       grid-template-columns: 1fr 5fr; 
+      grid-template-rows: 1fr 5fr;
 }
 .main-container>div{
     border:1px solid black;
@@ -29,4 +30,17 @@ body, .main-container{
 }
 .content{
     grid-area: content;
+}
+
+
+.projects{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.project{
+        border:1px solid black;
+
+}
+.sideannounce{
+    display:grid;
 }

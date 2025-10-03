@@ -24,6 +24,10 @@ body, .main-container{
 }
 .header{
     grid-area: header;
+    border:1px solid #FA6081;
+    border-bottom: none;
+box-shadow: 0 4px 2px -2px gray;
+
 }
 .sidebar{
     grid-area: sidebar;
@@ -44,12 +48,8 @@ body, .main-container{
     
 
 }
-.main-container{
-    border:1px solid #FA6081;
-}
-.main-container>div{
-    border:1px solid black;
-}
+
+
 .projects>div{
     border:1px solid black;
 }

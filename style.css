@@ -74,6 +74,8 @@ body, .main-container{
     border:1px solid yellow;
     width:60%;  
     margin:0 20px;
+      min-width: 0;
+
 }
 .right{
     display: flex;
@@ -90,7 +92,12 @@ input[type="text"]{
     height: 70%;
     margin-left: 1%;
 }
-h6{
-    white-space: normal;
+.text{
+    margin:0 16px;
+}
+
+.right button{
+    padding: 10px;
+      min-width: 0;
 
 }

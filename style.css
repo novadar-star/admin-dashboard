@@ -72,12 +72,21 @@ body, .main-container{
     align-items: center;
     align-content: flex-start;
     border:1px solid yellow;
-    width:70%;  
+    width:60%;  
+    margin:0 20px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    border:1px solid green;
+    width: 30%;
+   justify-content: center;
+   gap:15px;
 }
 input[type="text"]{
     border-radius: 30px;
     background: #E2E8F0;
-    width: 60%;
-    height: 50%;
+    width: 80%;
+    height: 70%;
     margin-left: 1%;
 }

@@ -192,5 +192,11 @@ h4{
 .display-text{
     grid-column: 1/3;
     grid-template-columns: 1fr;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    font-size: larger;
+
 }
+
 

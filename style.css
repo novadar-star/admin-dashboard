@@ -49,11 +49,9 @@ body, .main-container {
 }
 .projects{
     display: grid;
-
     grid-template-rows: 1fr repeat(3, 4fr);
-    height:calc(80vh - 10px);
+    height:calc(100vh - 10px);
     grid-template-columns: repeat(2,2fr);
-    
     gap:10px;
     margin:1.2rem 1.2rem;
 
@@ -206,8 +204,7 @@ h5{
     margin-left: 0.8rem;
 }
 p{
-     margin-top:0.5rem;
-    margin-left: 0.8rem;
+    margin: 0.5rem 0.9rem;
     font-size:small;
     color: #696969;
 

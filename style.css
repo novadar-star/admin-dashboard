@@ -208,8 +208,15 @@ p{
      margin-top:0.5rem;
     margin-left: 0.8rem;
     font-size:small;
-}
+        color: #696969;
 
+}
+.project-img{
+filter: invert(29%) sepia(1%) saturate(0%) hue-rotate(193deg) brightness(101%) contrast(88%);
+
+
+
+}
 .search:hover,.bell:hover{
    filter: invert(62%) sepia(74%) saturate(4663%) hue-rotate(317deg) brightness(110%) contrast(96%);
    transform: scale(1.1);

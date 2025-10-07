@@ -32,17 +32,20 @@ body, .main-container {
     grid-area: header;
     border:1px solid #FA6081;
     border-bottom: none ;
-    box-shadow: 0 4px 2px -2px gray;
+    box-shadow: 0 4px 2px -2px rgb(94, 93, 93);
 
 }
 .sidebar{
     grid-area: sidebar;
     background-color: #FA6081;
 }
+
+
 .content{
     grid-area: content;
     background-color:#E2E8F0;
     border-left:1px solid #FA6081;
+
 
 }
 
@@ -77,11 +80,9 @@ body, .main-container {
 .sideannounce{
     display:grid;
      
-
 }
 .announcement, .trending{
     border:1px solid black;
-
 }
 
 /* design*/
@@ -203,7 +204,7 @@ transform: scale(1.05);
 }
 
 h3{
-    font-size:medium;
+    font-size:large;
 }
 h4{
     margin-left: 0.8rem;
@@ -243,5 +244,14 @@ margin-right:1rem;
 
 }
 h6{
-    font-size: small;
+    font-size:small;
+}
+
+
+.sideannounce{
+    display:grid;
+    grid-column: 2/3;;
+     grid-row: 1/4;
+    grid-template-rows: 1fr 4fr 4fr;
+   
 }

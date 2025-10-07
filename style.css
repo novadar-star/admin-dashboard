@@ -304,4 +304,14 @@ margin:auto;
 border:1px solid black;
 display: flex;
 padding:0.8rem;
+justify-content: flex-start;
+white-space: normal;
+}
+#username{
+    font-size: medium;
+    font-weight: 500;
+}
+#user-desc{
+    color:#696969;
+    font-size: small;
 }

@@ -57,11 +57,13 @@ body, .main-container {
     margin:1.2rem 1.2rem;
 
 }
-
+/*put box shadow  on top of  content*/
 
 .project{
     border:1px solid black;
     background: white;
+    border-radius: 5px;
+    width:96%;
 }
 .display-text{
     background:#E2E8F0;
@@ -189,6 +191,9 @@ transform: scale(1.05);
 .bottom{
     margin-top:2rem;
     margin-bottom: 8rem;
+}
+.inner-bottom{
+    margin-bottom: 0.9rem;
 }
 h4{
     margin-left: 0.8rem;

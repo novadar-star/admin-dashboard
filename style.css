@@ -266,8 +266,10 @@ h6{
 
 .announcement, .trending{
     background: white;
+   
 
 }
+
 .sidetext, .sidetext2{
     display: flex;
     justify-content: center;
@@ -281,6 +283,15 @@ h6{
 }
 h2{
     font-size: large;
-
 }
+.title{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-weight: bolder;
+}
+.inner-announcement{
+    margin: 0 0.8rem;
+}
+
+ 
 /*remov emargin-bottom on div sidetext and sidetext2*/

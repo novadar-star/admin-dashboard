@@ -215,7 +215,8 @@ display: flex;
 justify-content: right;
 gap: 1rem;
 cursor: pointer;
-margin:1.3em;
+margin-top:2.8em;
+margin-right:1rem;
 }
 .search:hover,.bell:hover,.small:hover{
    filter: invert(62%) sepia(74%) saturate(4663%) hue-rotate(317deg) brightness(110%) contrast(96%);

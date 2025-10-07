@@ -251,9 +251,9 @@ h6{
 
 .sideannounce{
     display:grid;
-    grid-column: 2/3;;
-     grid-row: 1/4;
-    grid-template-rows: 1fr 6fr 6fr;
+    grid-column: 2/3;
+     grid-row: 1/5;
+    grid-template-rows: 1fr 8fr 1fr 8fr;
   
 }
 .sideannounce>div{

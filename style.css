@@ -198,7 +198,7 @@ transform: scale(1.05);
 }
 
 .bottom{
-    margin-top:2rem;
+    margin-top:4rem;
     margin-bottom: 8rem;
 }
 .inner-bottom{
@@ -299,11 +299,14 @@ h2{
     margin: auto;
  }
 /*remov emargin-bottom on div sidetext and sidetext2*/
+.trending{
+    margin-top:0.6rem;
+}
+
 .trending-acc{
 margin:auto;
-border:1px solid black;
 display: flex;
-padding:0.8rem;
+padding:1rem;
 justify-content: flex-start;
 white-space: normal;
 }

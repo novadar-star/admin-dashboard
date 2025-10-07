@@ -196,7 +196,11 @@ transform: scale(1.05);
 .inner-bottom{
     margin-bottom: 0.9rem;
 }
+
 h4{
+    margin-left: 0.8rem;
+}
+h5{
     margin-top:1rem;
     margin-left: 0.8rem;
 }

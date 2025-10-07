@@ -254,13 +254,24 @@ h6{
     grid-column: 2/3;
      grid-row: 1/5;
     grid-template-rows: 1fr 8fr 1fr 8fr;
+    margin-bottom: 1rem;
   
 }
 .sideannounce>div{
         border-radius: 8px;
 
-}
-.sideannounce:nth-child(2), .sideannounce:nth-child(3){
-    gap:2rem;
+
 }
 
+.announcement, .trending{
+    background: white;
+
+}
+.sidetext, .sidetext2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+
+}
+
+/*remov emargin-bottom on div sidetext and sidetext2*/

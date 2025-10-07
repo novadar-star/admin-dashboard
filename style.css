@@ -293,5 +293,8 @@ h2{
     margin: 0 0.8rem;
 }
 
- 
+ hr{
+    width: 90%;
+    margin: auto;
+ }
 /*remov emargin-bottom on div sidetext and sidetext2*/

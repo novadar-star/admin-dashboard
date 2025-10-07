@@ -213,7 +213,7 @@ h4{
 h5{
     font-size: large;
     margin-top:1rem;
-    margin-left: 0.2rem;
+    margin-left: 0.8rem;
 }
 p{
     margin: 0.5rem 0.9rem;
@@ -270,9 +270,17 @@ h6{
 }
 .sidetext, .sidetext2{
     display: flex;
-    justify-content: flex-end;
-    align-items: end;
+    justify-content: center;
 
 }
 
+.side-text,.side-text2{
+    margin-top: 1rem;
+    margin-bottom: 0;
+    text-align:left;
+}
+h2{
+    font-size: large;
+
+}
 /*remov emargin-bottom on div sidetext and sidetext2*/

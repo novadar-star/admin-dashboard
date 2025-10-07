@@ -73,6 +73,7 @@ body, .main-container {
     width:90%;
     padding-bottom: 20px;
     margin-bottom:1em; 
+
 }
 .display-text{
     background:#E2E8F0;
@@ -298,3 +299,9 @@ h2{
     margin: auto;
  }
 /*remov emargin-bottom on div sidetext and sidetext2*/
+.trending-acc{
+margin:auto;
+border:1px solid black;
+display: flex;
+padding:0.8rem;
+}

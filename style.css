@@ -5,22 +5,27 @@
 
 }
 
+/*minimize padding/margin in header*/
+
+
 body, .main-container {
     min-height:100vh;
+    overflow: scroll;
 }
+
 /* 2 rows, 2 col*/
 .main-container{
    
     display:grid;
-        grid-template-areas: 
+    grid-template-areas: 
     "sidebar header"
     "sidebar content"
     "sidebar .";
-
-      grid-template-columns: 1fr 5fr; 
-      grid-template-rows: 2fr 7fr;
+    grid-template-columns: 1fr 5fr; 
+    grid-template-rows: 2fr 7fr;
 }
-.main-container>div{
+
+.main-container>div {
     display: grid;
     
 }
@@ -28,7 +33,7 @@ body, .main-container {
     grid-area: header;
     border:1px solid #FA6081;
     border-bottom: none ;
- box-shadow: 0 4px 2px -2px gray;
+    box-shadow: 0 4px 2px -2px gray;
 
 }
 .sidebar{
@@ -37,8 +42,8 @@ body, .main-container {
 }
 .content{
     grid-area: content;
-        background-color:#E2E8F0;
-        border-left:1px solid #FA6081;
+    background-color:#E2E8F0;
+    border-left:1px solid #FA6081;
 
 }
 
@@ -49,8 +54,8 @@ body, .main-container {
 }
 .projects{
     display: grid;
+    align-items: center;
     grid-template-rows: 1fr repeat(3, 4fr);
-    height:calc(100vh - 10px);
     grid-template-columns: repeat(2,2fr);
     gap:10px;
     margin:1.2rem 1.2rem;
@@ -62,7 +67,9 @@ body, .main-container {
     border-left: 7px solid #FA6081;
     background: white;
     border-radius: 7px;
-    width:96%;
+    width:90%;
+    padding-bottom: 20px;
+    margin-bottom:1em; 
 }
 .display-text{
     background:#E2E8F0;
@@ -95,15 +102,16 @@ body, .main-container {
     align-content: flex-start;
     width:60%;  
     margin-left:45px;
-      min-width: 0;
+    min-width: 0;
 
 }
 .right{
     display: flex;
     align-items: center;
     width: 30%;
-   justify-content: flex-end;
-   gap:18px;
+    justify-content: flex-end;
+    gap:18px;
+    margin-bottom: 0;
 }
 input[type="text"]{
     border-radius: 30px;
@@ -195,6 +203,9 @@ transform: scale(1.05);
     margin-bottom: 0.9rem;
 }
 
+h3{
+    font-size:medium;
+}
 h4{
     margin-left: 0.8rem;
 }
@@ -231,4 +242,7 @@ margin-right:1rem;
     font-size: larger;
     margin-bottom: 0.3rem;
 
+}
+h6{
+    font-size: small;
 }

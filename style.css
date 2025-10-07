@@ -10,7 +10,6 @@
 
 body, .main-container {
     min-height:100vh;
-    overflow: scroll;
 }
 
 /* 2 rows, 2 col*/
@@ -22,7 +21,7 @@ body, .main-container {
     "sidebar content"
     "sidebar .";
     grid-template-columns: 1fr 5fr; 
-    grid-template-rows: 2fr 7fr;
+    grid-template-rows: 2fr 9fr;
 }
 
 .main-container>div {

@@ -201,6 +201,7 @@ h4{
     margin-left: 0.8rem;
 }
 h5{
+    font-size: large;
     margin-top:1rem;
     margin-left: 0.8rem;
 }
@@ -215,8 +216,11 @@ p{
 filter: invert(29%) sepia(1%) saturate(0%) hue-rotate(193deg) brightness(101%) contrast(88%);
 display: flex;
 justify-content: right;
+gap: 1rem;
+cursor: pointer;
+margin:1.3em;
 }
-.search:hover,.bell:hover{
+.search:hover,.bell:hover,.small:hover{
    filter: invert(62%) sepia(74%) saturate(4663%) hue-rotate(317deg) brightness(110%) contrast(96%);
    transform: scale(1.1);
 }

@@ -63,7 +63,7 @@ body, .main-container {
     gap:10px;
     margin:1.2rem 1.2rem;
 
-}
+}   
 /*put box shadow  on top of  content*/
 
 .project{
@@ -259,7 +259,7 @@ h6{
      grid-row: 1/5;
     grid-template-rows: 1fr 8fr 1fr 8fr;
     margin-bottom: 1rem;
-    margin-right:1rem;
+    margin-right:1.7rem;
   
 }
 .sideannounce>div{
@@ -301,9 +301,7 @@ h2{
     width: 90%;
     margin: auto;
  }
-/*remov emargin-bottom on div sidetext and sidetext2*/
 .trending{
-    margin-top:0.2rem;
     padding-left:0.8rem;
 }
 

@@ -31,8 +31,8 @@ body, .main-container {
 .header{
     grid-area: header;
     border:1px solid #FA6081;
-    border-bottom: none ;
-    box-shadow: 0 4px 2px -2px rgb(94, 93, 93);
+    border-bottom: none;
+    box-shadow: 4px 4px 2px -2px rgb(33, 32, 32);
 
 }
 .sidebar{
@@ -86,7 +86,8 @@ body, .main-container {
      
 }
 .announcement, .trending{
-    border:1px solid black;
+    box-shadow: 4px 4px 2px -2px gray;
+
 }
 
 /* design*/
@@ -302,11 +303,11 @@ h2{
  }
 /*remov emargin-bottom on div sidetext and sidetext2*/
 .trending{
-    margin-top:0.6rem;
+    margin-top:0.2rem;
+    padding-left:0.8rem;
 }
 
 .trending-acc{
-margin:auto;
 display: flex;
 padding:1rem;
 justify-content: flex-start;
